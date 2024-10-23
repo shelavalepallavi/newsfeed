@@ -1,0 +1,29 @@
+/* Import the Outfit font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/* Tailwind CSS Directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Styles */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif; /* Ensure to include a fallback font */
+}
+
+body {
+  min-height: 100vh;
+  background: whitesmoke;
+  /* background: rgb(212, 146, 146); */
+  color: black;
+}
+.dark .app {
+  background-color: #1f1f20;
+  color: #ffffff; 
+}
+.div-flex{
+  display: flex;
+}
